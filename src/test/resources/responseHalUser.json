@@ -1,0 +1,37 @@
+{
+    "id" : "efc8457a-fef4-46b1-85f0-954c118c3864",
+    "loginName" : "userOne",
+    "firstName" : "User",
+    "lastName" : "One",
+    "privileges" : [ "4a052805-9ec4-4de6-a512-cd74d8a5c00c", "847b9812-5cf1-40db-b5c7-c704c50d86f0" ],
+    "_embedded" : {
+        "privilegeList" : [ {
+            "id" : "4a052805-9ec4-4de6-a512-cd74d8a5c00c",
+            "name" : "Privilege 1",
+            "_links" : {
+                "self" : {
+                    "href" : "http://localhost/privileges/4a052805-9ec4-4de6-a512-cd74d8a5c00c"
+                }
+            }
+        }, {
+            "id" : "847b9812-5cf1-40db-b5c7-c704c50d86f0",
+            "name" : "Privilege 2",
+            "_links" : {
+                "self" : {
+                    "href" : "http://localhost/privileges/847b9812-5cf1-40db-b5c7-c704c50d86f0"
+                }
+            }
+        } ]
+    },
+    "_links" : {
+        "self" : {
+            "href" : "http://localhost/hal/users/efc8457a-fef4-46b1-85f0-954c118c3864"
+        },
+        "allUsers" : {
+            "href" : "http://localhost/hal/users"
+        },
+        "privileges" : {
+            "href" : "http://localhost/hal/users/efc8457a-fef4-46b1-85f0-954c118c3864/privileges"
+        }
+    }
+}

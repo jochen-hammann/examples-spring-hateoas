@@ -1,0 +1,18 @@
+{
+    "id" : "efc8457a-fef4-46b1-85f0-954c118c3864",
+    "loginName" : "userOne",
+    "firstName" : "User",
+    "lastName" : "One",
+    "privileges" : [ "4a052805-9ec4-4de6-a512-cd74d8a5c00c", "847b9812-5cf1-40db-b5c7-c704c50d86f0" ],
+    "_links" : {
+        "self" : {
+            "href" : "http://localhost/users/efc8457a-fef4-46b1-85f0-954c118c3864"
+        },
+        "allUsers" : {
+            "href" : "http://localhost/users"
+        },
+        "privileges" : {
+            "href" : "http://localhost/users/efc8457a-fef4-46b1-85f0-954c118c3864/privileges"
+        }
+    }
+}

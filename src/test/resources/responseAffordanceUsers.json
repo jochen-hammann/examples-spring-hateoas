@@ -1,0 +1,140 @@
+{
+    "_embedded" : {
+        "users" : [ {
+            "id" : "efc8457a-fef4-46b1-85f0-954c118c3864",
+            "loginName" : "userOne",
+            "firstName" : "User",
+            "lastName" : "One",
+            "privileges" : [ "4a052805-9ec4-4de6-a512-cd74d8a5c00c", "847b9812-5cf1-40db-b5c7-c704c50d86f0" ],
+            "_links" : {
+                "self" : {
+                    "href" : "http://localhost/users/efc8457a-fef4-46b1-85f0-954c118c3864"
+                },
+                "allUsers" : {
+                    "href" : "http://localhost/users"
+                },
+                "privileges" : {
+                    "href" : "http://localhost/users/efc8457a-fef4-46b1-85f0-954c118c3864/privileges"
+                }
+            },
+            "_templates" : {
+                "putUser" : {
+                    "method" : "put",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "default" : {
+                    "method" : "post",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "patchUser" : {
+                    "method" : "patch",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "deleteUser" : {
+                    "method" : "delete",
+                    "properties" : [ ]
+                }
+            }
+        }, {
+            "id" : "b209dcd3-6e2a-48f3-89b3-9a527a56bf30",
+            "loginName" : "userTwo",
+            "firstName" : "User",
+            "lastName" : "Two",
+            "privileges" : [ "b643f0b0-3d58-4c82-9dd6-2f974375d2c6", "fd351f15-fb75-4c2c-8cfb-b709bc3318a7" ],
+            "_links" : {
+                "self" : {
+                    "href" : "http://localhost/users/b209dcd3-6e2a-48f3-89b3-9a527a56bf30"
+                },
+                "allUsers" : {
+                    "href" : "http://localhost/users"
+                },
+                "privileges" : {
+                    "href" : "http://localhost/users/b209dcd3-6e2a-48f3-89b3-9a527a56bf30/privileges"
+                }
+            },
+            "_templates" : {
+                "putUser" : {
+                    "method" : "put",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "default" : {
+                    "method" : "post",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "patchUser" : {
+                    "method" : "patch",
+                    "properties" : [ {
+                        "name" : "firstName"
+                    }, {
+                        "name" : "id"
+                    }, {
+                        "name" : "lastName"
+                    }, {
+                        "name" : "loginName"
+                    }, {
+                        "name" : "privileges"
+                    } ]
+                },
+                "deleteUser" : {
+                    "method" : "delete",
+                    "properties" : [ ]
+                }
+            }
+        } ]
+    },
+    "_links" : {
+        "self" : {
+            "href" : "http://localhost/users"
+        }
+    }
+}
